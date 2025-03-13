@@ -21,18 +21,24 @@
     </header>
 
     <main>
-      <section id="home" class="hero">
-        <h1>Sydney's Portfolio</h1>
-        <img src="sydney 13th.jpg" width="300" height="400"
-
-      </section>
-
-      <section id="about">
-        <h2>About Me</h2>
+      <main>
+        
+          
+          <h1>Sydney's Portfolio</h1>
+          <img src="sydney 13th.jpg" width="300" height="400"
+          <video controls>
+            <source src="project1.mp4" type="video/mp4"> 
+            
+        </video>
+    </section>
+        
+  
+        <section id="about">
+          <h2>About Me</h2>
         <article>
           <h3>Background</h3>
           <p>I am a software developer based in Nairobi Kemya, passionate about developing software useful to the ever changing Tech world.</p>
-          
+        
           <h3>Skills</h3>
           <ul>
             <li>Python</li>
@@ -93,14 +99,15 @@
       </section>
 
       <section id="contact">
-        <h2>Contact Me</h2>
+
+        <div>
+        <h2>Contacts</h2>
             <label for="email">Email: sydneywalter29@gmail.com</label>
-                     </div>
+        </div>
 
           <div class="form-group">
-            <label for="number">Number: +254743181854</label>
-        <br>
-            <label for="link">Linkeid: www.linkedin.com/in/sydney-walter-87a37b334</label>
+            <h5>Number: +254743181854</5>
+            <h5>Linkeid: www.linkedin.com/in/sydney-walter-87a37b334</h5>
           </div>
 
         </form>
@@ -117,6 +124,21 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
       <p>&copy; Sydney Walter 2025. All rights reserved.</p>
     </footer>
   </body>
